@@ -1,4 +1,4 @@
-/* Rafael Bewerbung CSS */
+
 
 body {
   margin: 0;
@@ -9,14 +9,14 @@ body {
 }
 
 video {
-  position: fixed; /* Video bleibt an einer festen Position */
+  position: fixed; 
   top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -1; /* Video hinter dem Inhalt */
+  z-index: -1; 
   transform: translate(-50%, -50%);
 }
 
@@ -24,16 +24,16 @@ video {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  position: relative; /* Position relativ für den Inhalt */
-  z-index: 1; /* Sicherstellen, dass der Inhalt über dem Video liegt */
+  position: relative; 
+  z-index: 1; 
 }
 .title-box {
-  background-color: rgba(255, 255, 255, 0.9); /* Leicht transparentes Weiß */
+  background-color: rgba(255, 255, 255, 0.9); 
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 15px;
-  margin-bottom: 20px; /* Abstand zum nächsten Element */
-  text-align: center; /* Zentriert den Text */
+  margin-bottom: 20px; 
+  text-align: center; 
 }
 
 h1 {
@@ -44,13 +44,13 @@ h1 {
 }
 
 .file-list {
-  background-color: rgba(255, 255, 255, 0.8); /* Leicht transparent */
+  background-color: rgba(255, 255, 255, 0.8); 
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
 }
 
-/* Styling für dynamisch generierte Dateien */
+
 .file-list .file {
   margin-bottom: 10px;
 }
@@ -103,5 +103,5 @@ iframe {
     justify-content: center;
     font-family: cursive;
     font-size: 100%;
-    background-color: #fff
+    background-color: background-color: rgba(255, 255, 255, 0.9);
    }
