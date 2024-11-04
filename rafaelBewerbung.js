@@ -23,7 +23,7 @@ function generateFileList() {
 
         heading.textContent = doc.title;
         link.textContent = doc.fileName;
-        link.href = `files/${doc.fileName}`; // Pfad zur Datei
+        link.href = `${doc.fileName}`; // Pfad zur Datei
         link.target = "_blank"; // Öffnet die Datei in einem neuen Tab
 
         section.appendChild(heading);
