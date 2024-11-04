@@ -1,0 +1,76 @@
+/* Rafael Bewerbung CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+video {
+  position: fixed; /* Video bleibt an einer festen Position */
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Video hinter dem Inhalt */
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative; /* Position relativ für den Inhalt */
+  z-index: 1; /* Sicherstellen, dass der Inhalt über dem Video liegt */
+}
+.title-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Leicht transparentes Weiß */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px; /* Abstand zum nächsten Element */
+  text-align: center; /* Zentriert den Text */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.file-list {
+  background-color: rgba(255, 255, 255, 0.8); /* Leicht transparent */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Styling für dynamisch generierte Dateien */
+.file-list .file {
+  margin-bottom: 10px;
+}
+
+.file-list .file span {
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.file-list .file button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.file-list .file button:hover {
+  background-color: #555;
+}
