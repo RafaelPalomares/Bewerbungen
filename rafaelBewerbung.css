@@ -28,7 +28,7 @@ video {
   z-index: 1; 
 }
 .title-box {
-  background-color: rgba(255, 255, 255, 0.9); 
+  background-color: rgba(255, 255, 255, 0.8); 
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 15px;
@@ -103,5 +103,5 @@ iframe {
     justify-content: center;
     font-family: cursive;
     font-size: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
    }
