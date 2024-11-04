@@ -47,6 +47,7 @@ h1 {
   background-color: rgba(255, 255, 255, 0.8); /* Leicht transparent */
   border: 1px solid #ccc;
   padding: 10px;
+  text-align: center;
 }
 
 /* Styling für dynamisch generierte Dateien */
